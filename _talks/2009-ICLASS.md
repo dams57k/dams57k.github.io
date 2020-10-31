@@ -9,6 +9,7 @@ date: 2009-07-26
 tag: talk
 ---
 
+[[Slides](/files/pres_iclass3.pdf)]
 <br>
 <br>
 
