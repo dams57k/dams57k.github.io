@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: <!--"Talks and presentations"-->
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +11,15 @@ author_profile: true
 
 {% endif %}
 
+<h1> Talks in AI </h1>
+{% for post in site.talks reversed %}
+   {% if post.tag == "talk-AI" %}
+  {% include archive-single-talk.html %}
+   {% endif %}
+{% endfor %}
+
+
+<h1> Talks in Computational Fluid Dynamics </h1>
 {% for post in site.talks reversed %}
    {% if post.tag == "talk" %}
   {% include archive-single-talk.html %}
