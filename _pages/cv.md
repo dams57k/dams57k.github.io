@@ -11,49 +11,84 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Fundamental and Applied Physics, with honors, 2005
+* B.S, M.S. in Mechanical Engineering, Ecole Centrale Paris, with honors, 2007
+* Ph.D in Computational Fluid Dynamics, Ecole Centrale Paris, with honors, 2010 
+
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-now: AI Engineer, Western Digital Corporation (WDC)
+  * Projects
+	* Neuromorphic Computing; Preserving network accuracy with constrained weights
+	* Computer Vision: Action Recognition using 3D CNN
+	* Data pipeling: Optimizing data transfer from host CPU to GPU using pipelining (Tensorpack)
+	* Embedded Computer Vision: Designing real-time Computer Vision application running on end-point dev
+  * Interests: Computer Vision (classification, detection), Generative Networks, Information Theory
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2014-2017: Simulation Engineer, Magnetic Head, Western Digital Corporation (WDC)
+  * Tasks: 
+	* Optimizing magnetic head design: Created an automatized Machine Learning workflow for head optimization
+	* Owner of design tools and computing resources: built an on-premise cluster and purchased licenses for parametric optimization (~$200K), ported simulation tools for head simulation from Unix system to AWS
+
+* 2011-2013: Post-doctoral fellow, Stanford University, Center for Turbulence Research (CTR)	
+  * Projects: 
+	* Modeling & simulation of sprays, multiphase flow 
+	* Combustion in IC engines
+
+
+* 2007-2010: PhD Candidate, French Petroleum Institute (IFPEN) / Ecole Centrale Paris (3 years)
+   * Project: Design of new robust and accurate modeling and numerical simulation of spray
+
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computing
+	* Programming/Scripting: Python, JavaScript, Matlab, Fortran, TCL, R, Maple
+	* Framework/libraries: TensorFlow, Caffe, OpenCv, Pandas, Isight (Dassault Systemes®)
+	* Web development: HTML/CSS, Angular, node.js, MongodB
+	* Miscellaneous: Docker, Github, MySQL, Pig/Hadoop
+	* OS: Linux, Mac, Windows 
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Machine Learning: Computer Vision, Information Theory
+* Physics/Modeling: Tribology, MEMS, Computational Fluid Dynamics
+* Numerical Methods/Codes: Development in academics and industrial CFD codes
+* Languages: French (native),English (fluent), German (good level)
+            	
+
+<!--#Publications
+#======
+#  <ul>{% for post in site.publications %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+#Talks
+#======
+#  <ul>{% for post in site.talks reversed%}
+#   {% if post.tag == "talk" or post.tag == "talk-AI" %}
+#    {% include archive-single-talk-cv.html %}
+#   {% endif %}
+#  {% endfor %}</ul>
+ 
+#Awards
+#======
+#  <ul>{% for post in site.talks reversed%}
+#   {% if post.tag == "award %}
+#    {% include archive-single-talk-cv.html %}
+#   {% endif %}
+#  {% endfor %}</ul>
+-->  
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Advanced Multiphase flows
+	* Graduate Course, Stanford University, Mechanical Engineering, Winter 2012
+	* Teaching Assistant
+
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<!--Service and leadership
+#======
+#* Currently signed in to 43 different slack teams
+-->
